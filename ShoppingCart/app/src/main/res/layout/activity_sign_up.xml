@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/loginIntroTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="麦麦 App"
+                android:gravity="center"
+                android:textSize="45sp"
+                android:textStyle="bold"
+
+                />
+            <EditText
+                android:id="@+id/signUpUserNameEdt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/edittext_background"
+                android:ems="10"
+                android:hint="名称"
+                android:inputType="text"
+                android:textStyle="bold"
+                android:gravity="center"
+
+                android:textColorHint="@color/blue_grey"
+                android:textSize="16sp"
+
+                />
+
+            <EditText
+                android:id="@+id/signUpUserEdt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/edittext_background"
+                android:ems="10"
+                android:hint="邮箱地址"
+                android:inputType="text"
+                android:textStyle="bold"
+                android:gravity="center"
+
+                android:textColorHint="@color/blue_grey"
+                android:textSize="16sp"
+
+                />
+            <EditText
+                android:id="@+id/signUpPassEdt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/edittext_background"
+                android:ems="10"
+                android:hint="密码"
+                android:inputType="text"
+                android:textStyle="bold"
+                android:gravity="center"
+
+                android:textColorHint="@color/blue_grey"
+                android:textSize="16sp"
+
+                />
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/invisibleTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="忘记密码？"
+                android:textSize="12sp"
+                android:layout_marginTop="4dp"
+                android:textAlignment="center"
+
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/signUpBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="注册！"
+                android:background="@drawable/orange_button"
+                style="@android:style/Widget.Button"
+                android:layout_margin="32dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".Activity.SignUpActivity">-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView7"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/background_intro" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView8"-->
+<!--        android:layout_width="412dp"-->
+<!--        android:layout_height="484dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView7"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageView7"-->
+<!--        tools:srcCompat="@drawable/cat_2" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView15"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="欢迎来到我的麦麦软件"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="33sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/imageView7"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView8" />-->
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
